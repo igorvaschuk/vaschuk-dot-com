@@ -2,10 +2,10 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 
 // Audible library. added: "YYYY-MM" (or "YYYY-MM-DD"), done: finished listening.
 const AI_BOOKS = [
-  { title: "If Anyone Builds It, Everyone Dies", author: "Eliezer Yudkowsky & Nate Soares", added: "2025-11-11", length: "6h 19m", done: false },
+  { title: "If Anyone Builds It, Everyone Dies", author: "Eliezer Yudkowsky & Nate Soares", added: "2025-11-11", length: "6h 19m", done: true },
   { title: "The Singularity Is Nearer", author: "Ray Kurzweil", added: "2025-10-27", length: "10h 25m", done: true },
-  { title: "Superintelligence", author: "Nick Bostrom", added: "2023-07-22", length: "14h 17m", done: false },
-  { title: "Life 3.0", author: "Max Tegmark", added: "2023-07-01", length: "13h 29m", done: false },
+  { title: "Superintelligence", author: "Nick Bostrom", added: "2023-07-22", length: "14h 17m", done: true },
+  { title: "Life 3.0", author: "Max Tegmark", added: "2023-07-01", length: "13h 29m", done: true },
   { title: "Human Compatible", author: "Stuart Russell", added: "2023-05-04", length: "11h 38m", done: true },
 ];
 
